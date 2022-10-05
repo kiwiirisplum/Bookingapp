@@ -1,0 +1,52 @@
+.flightSearchContainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 60rem;
+    margin: 1.25rem 0 6.25rem 0;
+}
+
+.flightSearchWrapper{
+    margin: 1.25rem;
+}
+
+.flightSearchBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 1.875rem;
+    background-color: #fff;
+    border: 3px solid #2365c1;
+    padding: .625rem 1.25rem;
+    border-radius: .3125rem;
+    position: absolute;
+    width: 100%;
+    max-width: 50rem;
+}
+
+.flightSearchItem{
+    display: flex;
+    align-items: center;
+    gap: .625rem;
+}
+
+.flightSearchInput {
+    border: none;
+    outline: none;
+}
+
+.flightSearchIcon {
+    color: #0e63da;
+}
+
+.flightSearchText{
+    color: #9daabc;
+    cursor: pointer;
+}
+
+.date {
+    position: absolute;
+    top: 3.125rem;
+    z-index: 3;
+}

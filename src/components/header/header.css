@@ -1,0 +1,136 @@
+.header {
+    position: relative;
+    background-color: #FFD445;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    font-size: 1.125rem;
+}
+
+.headerContainer {
+    width: 100%;
+    max-width: 90rem;
+    margin: 1.25rem 0 6.25rem 0;
+}
+
+.headerContainer.listMode {
+    margin: 1.25rem 0 0 0;
+}
+
+.headerList {
+    display: flex;
+    gap: 2.5rem;
+    margin-bottom: 3.125rem;
+}
+
+.headerListItem {
+    display: flex;
+    align-items: center;
+    gap: .625rem;
+}
+
+.headerListItem.active {
+    border: .1875rem dotted #fff;
+    padding: .625rem;
+    border-radius: 1.25rem;
+}
+
+.headerListItemLink {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: .625rem;
+    color: #fff;
+}
+
+.headerDescription {
+    margin: 1.25rem 0;
+}
+
+.headerBtn {
+    background-color: #FFA938;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    padding: .625rem;
+    cursor: pointer;
+}
+
+.headerSearchBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 1.875rem;
+    background-color: #fff;
+    border: 3px solid #2365c1;
+    padding: .625rem 0;
+    border-radius: .3125rem;
+    position: absolute;
+    bottom: -25px;
+    width: 100%;
+    max-width: 90rem;
+}
+
+.headerIcon {
+    color: #0e63da;
+}
+
+.headerSearchItem {
+    display: flex;
+    align-items: center;
+    gap: .625rem;
+}
+
+.headerSearchInput {
+    border: none;
+    outline: none;
+}
+
+.headerSearchText {
+    color: #9daabc;
+    cursor: pointer;
+}
+
+.date {
+    position: absolute;
+    top: 3.125rem;
+    z-index: 3;
+}
+
+.options {
+    z-index: 3;
+    position: absolute;
+    top: 3.125rem;
+    background-color: #fff;
+    color: #9daabc;
+    border-radius: .3125rem;
+    -webkit-box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4); 
+    box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+}
+
+.optionItem {
+    display: flex;
+    margin: .625rem;
+    justify-content: space-between;
+    width: 12.5rem;
+}
+
+.optionCounter {
+    display: flex;
+    align-items: center;
+    gap: .625rem;
+    font-size: .875rem;
+    color: #0e63da;
+}
+
+.optionCounterButton {
+    width: 1.875rem;
+    height: 1.875rem;
+    border: 1px solid #FFD445;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.optionCounterButton:disabled {
+    cursor: not-allowed;
+}

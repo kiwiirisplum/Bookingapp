@@ -1,0 +1,44 @@
+.featuredProperties {
+    width: 100%;
+    max-width: 90rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 1.875rem;
+}
+.featuredProperties.listMode {
+    max-width: 100rem;
+}
+
+.featuredPropertiesItem {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: .625rem;
+}
+
+.featuredPropertiesImg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.featuredPropertiesName{
+    font-weight: 700;
+}
+
+.featuredPropertiesCity{
+    font-weight: 300;
+}
+
+.featuredPropertiesRating>button {
+    background-color: #FFC16B;
+    color: #003580;
+    border: none;
+    margin-right: .625rem;
+    padding: .1875rem;
+    font-weight: 700;
+}
+
+.featuredPropertiesRating>span {
+    font-size: 1rem;
+}

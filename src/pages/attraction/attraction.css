@@ -1,0 +1,39 @@
+.attractionContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.attractionWrapper {
+    height: 35vh;
+}
+
+.attractionListSearch{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: .9375rem;
+    padding: 1.875rem;
+    gap: 1.25rem;
+    background-color: transparent;
+    color: #003580;
+}
+
+.attractionInput {
+    width: 35%;
+    padding: .625rem;
+    border: none;
+    border-radius: .625rem;
+    background-color: lemonchiffon;
+}
+
+.attractionBtn {
+    border: none;
+    border-radius: .625rem;
+    width: 6.25rem;
+    height: 3.125rem;
+    background-color: lemonchiffon;
+    font-size: 1.25rem;
+    color: #003580;
+    cursor: pointer;
+}

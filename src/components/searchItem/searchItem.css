@@ -1,0 +1,101 @@
+.searchItem {
+    border: 5px solid lightgoldenrodyellow;
+    padding: .625rem;
+    border-radius: .3125rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+.searchItemImg {
+    width: 15.625rem;
+    object-fit: cover;
+}
+
+.searchItemDescription {
+    display: flex;
+    flex-direction: column;
+    gap: .9375rem;
+    flex: 2;
+}
+
+.searchItemTitle {
+    font-size: 1.5rem;
+    color: #003580;
+}
+
+.searchItemDistance {
+    font-size: 1.125rem;
+    background-color: lemonchiffon;
+    color: #003580;
+    width: max-content;
+    padding: .1875rem;
+    border-radius: .3125rem;
+}
+
+.searchItemDistance {
+    font-size: .875rem;
+}
+
+.searchItemSubtitle {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.searchItemCancelOption {
+    font-size: .75rem;
+    color: #003580;
+    font-weight: bold;
+}
+
+.searchItemCancelOptionSubtitle {
+    font-size: .875rem;
+}
+
+.searchItemDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.searchItemRating {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.125rem;
+}
+
+.searchItemRating>span {
+    font-weight: 500;
+    font-size: 1.375rem;
+}
+
+.searchItemRating>button {
+    background-color: #FFAD61;
+    color: #003580;
+    padding: .625rem;
+    font-weight: bolder;
+    border: none;
+}
+
+.searchItemDetailTexts{
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    gap: .3125rem;
+}
+
+.searchItemPrice {
+    font-size: 1.5rem;
+}
+
+.searchItemCheckButton {
+    background-color: #FFC16B;
+    font-weight: bold;
+    padding: .625rem .3125rem;
+    border: none;
+    border-radius: .3125rem;
+    cursor: pointer;
+    font-size: 1.125rem;
+}
